@@ -19,8 +19,6 @@ The "Safe" part of the system is a built in limiter with loose restrictions allo
 - C++20 and Zero Dependancy Design
 
 
-You’re using std::unique_ptr to manage the CrossView object, which is a safe and efficient choice.
-
 ## Tested
 
 - Tested in Windows 10/11 With Console and WindowsDesktopApplication.
