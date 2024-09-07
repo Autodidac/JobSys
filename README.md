@@ -7,7 +7,7 @@ SafeJobSystem is a cross-platform library designed for creating and managing Mul
 
 The "Safe" part of the system is a built in limiter with loose restrictions allowing a maximum of 8 times the number of hardware reported cores or a manual selection with a reasonably large range to avoid limiting freedom, along side a thread queue which optimally uses 1 or more "worker-only" threads and processes them proceedurally and consecutively, one after another until finished for maximum performance and optimization in the realm of High Speed Games Development.
 
-<img align="left" src="image/gpt.jpg" width="40px"/>GPT-4
+<img align="left" src="https://github.com/Autodidac/CrossView/image/gpt.jpg" width="40px"/>GPT-4
 
 
 ## Features
