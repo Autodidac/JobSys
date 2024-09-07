@@ -14,7 +14,6 @@ The "Safe" part of the system is a built in limiter with loose restrictions allo
 
 - Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a No-op/Console mode.
 - SafeJobSystem Creation and Management.
--              //Platform-specific implementation details hidden behind a common interface.
 - Namespace 'SafeJobSystem' Prevents Global Code Leaks
 - C++20 and Zero Dependancy Design
 
