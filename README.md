@@ -1,7 +1,11 @@
 # Safe Job System - Thread Safe, Anti-Thread Lock, Minimal Cross-platform C++20 No-Dependency Job System Library
 
 
-SafeJobSystem is a cross-platform library designed for creating and managing Multi-Threaded Job Systems across multiple platforms. It abstracts platform-specific Job System management code into a unified interface, allowing you to create and manipulate Job-Systems in a platform-agnostic way. The "Safe" part of the system is a built in limiter with loose restrictions allowing a maximum of 8 times the number of hardware reported cores or a manual selection with a reasonably large range to avoid limiting freedom, along side a thread queue which optimally uses 1 or more "worker-only" threads and processes them proceedurally and consecutively, one after another until finished for maximum performance and optimization in the realm of High Speed Games Development.
+SafeJobSystem is a cross-platform library designed for creating and managing Multi-Threaded Job Systems across multiple platforms. It abstracts platform-specific Job System management code into a unified interface, allowing you to create and manipulate Job-Systems in a platform-agnostic way. 
+
+### Thread Safety - Anti-Thread Lock
+
+The "Safe" part of the system is a built in limiter with loose restrictions allowing a maximum of 8 times the number of hardware reported cores or a manual selection with a reasonably large range to avoid limiting freedom, along side a thread queue which optimally uses 1 or more "worker-only" threads and processes them proceedurally and consecutively, one after another until finished for maximum performance and optimization in the realm of High Speed Games Development.
 
 <img align="left" src="image/gpt.jpg" width="40px"/>GPT-4
 
