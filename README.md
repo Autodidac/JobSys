@@ -1,2 +1,1 @@
-# JobSys
-Job System - Minimal Cross-platform Native C++20 No-Dependency Library 
+# Safe Job System - Thread Safe, Anti-Thread Lock, Minimal Cross-platform C++20 No-Dependency Job System Library
