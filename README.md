@@ -54,7 +54,7 @@ You’re using std::unique_ptr to manage the CrossView object, which is a safe a
 
 1. Clone the repository:
 ```sh
-   git clone https://github.com/Autodidac/CrossView.git
+   git clone https://github.com/Autodidac/SafeJobSystem.git
    cd CrossView
 ```
 
