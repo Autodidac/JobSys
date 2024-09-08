@@ -100,13 +100,8 @@ cd build
 cmake ..
 cmake --build .
 ```
-Enable Headless Mode:
 
-To build with headless mode enabled, pass the option when running cmake:
-```sh
-cmake .. 
-cmake --build .
-```
+
 Run:
 
 After building, you can run the generated executable. If you built with headless mode, the console window will be allocated as needed.
