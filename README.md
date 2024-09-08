@@ -12,15 +12,9 @@ SafeJobSystem is a cross-platform library designed for creating and managing Mul
 
 
 
-### Thread Safety - Anti-Thread Lock
+### Thread Safety - Anti-Thread Lock - Lock Free Queue
 
-
-The "Safe" part of the system is a built in limiter with loose restrictions allowing a maximum of 8 times the number of hardware reported cores or a manual selection with a reasonably large range to avoid limiting freedom, along side a thread queue which optimally uses 1 or more "worker-only" threads and processes them proceedurally and consecutively, one after another until finished for maximum performance and optimization in the realm of High Speed Games Development.
-
-#### Welcome to SafeJobSystem 0.0.2 with LOCK FREE QUEUE!
-
-##### Advanced Concurrency Techniques
-
+#### Advanced Concurrency Techniques
 
 Characteristics:
 
