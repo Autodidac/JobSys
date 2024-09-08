@@ -72,7 +72,7 @@ The "Safe" part of the system is a built in limiter with loose restrictions allo
 1. Clone the repository:
 ```sh
    git clone https://github.com/Autodidac/SafeJobSystem.git
-   cd CrossView
+   cd SafeJobSystem
 ```
 
 
