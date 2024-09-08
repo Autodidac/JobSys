@@ -7,15 +7,20 @@
 <img align="left" src="image/gpt.jpg" width="40px"/>GPT-4
 
 
+
 SafeJobSystem is a cross-platform library designed for creating and managing Multi-Threaded Job Systems across multiple platforms. It abstracts platform-specific Job System management code into a unified interface, allowing you to create and manipulate Job-Systems in a platform-agnostic way. 
 
+
+
 ### Thread Safety - Anti-Thread Lock
+
 
 The "Safe" part of the system is a built in limiter with loose restrictions allowing a maximum of 8 times the number of hardware reported cores or a manual selection with a reasonably large range to avoid limiting freedom, along side a thread queue which optimally uses 1 or more "worker-only" threads and processes them proceedurally and consecutively, one after another until finished for maximum performance and optimization in the realm of High Speed Games Development.
 
 
 
 ## Features
+
 
 - Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a No-op/Console mode. (currently)
 - SafeJobSystem Creation and Management.
@@ -25,11 +30,17 @@ The "Safe" part of the system is a built in limiter with loose restrictions allo
 
 ## Tested
 
+
 - Tested in Windows 10/11 With Console and WindowsDesktopApplication.
+
+
 
 <img align="left" src="image/3.png" width="200px"/>
 
+
 <img align="left" src="image/2.png" width="200px"/>
+
+
 
 ```cpp
 
