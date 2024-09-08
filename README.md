@@ -21,32 +21,21 @@ The "Safe" part of the system is a built in limiter with loose restrictions allo
 
 ##### Advanced Concurrency Techniques
 Characteristics:
-
-Lock-Free Queues: Implementations like Michael-Scott queues use atomic operations to avoid locking, reducing contention.
-
-Work-Stealing: More complex but improves load balancing across threads.
-
-Thread Pools: Advanced management of thread lifecycles and task distribution.
+-Lock-Free Queues: Implementations like Michael-Scott queues use atomic operations to avoid locking, reducing contention.
+-Work-Stealing: More complex but improves load balancing across threads.
+-Thread Pools: Advanced management of thread lifecycles and task distribution.
 
 Pros:
-
-High Performance: Designed for scenarios with high contention and frequent access.
-
-Efficient Utilization: Better at handling high concurrency with reduced latency and overhead.
+-High Performance: Designed for scenarios with high contention and frequent access.
+-Efficient Utilization: Better at handling high concurrency with reduced latency and overhead.
 
 Cons:
-
-Complexity: More complex to implement and understand due to low-level atomic operations and intricate logic.
-
-Debugging: Harder to debug and maintain due to the complexity of lock-free algorithms.
-
+-Complexity: More complex to implement and understand due to low-level atomic operations and intricate logic.
+-Debugging: Harder to debug and maintain due to the complexity of lock-free algorithms.
 Choosing the Right Approach
-
-For Simple Applications: If your application does not require extremely high concurrency and performance, the simpler implementation using mutexes and condition variables might be sufficient.
-
-For High-Performance Needs: If you need to maximize performance and handle high concurrency, investing in lock-free queues and advanced techniques might be worth the complexity.
-
-In summary, the simpler implementation is often a good starting point, especially for less demanding applications or when developing a proof of concept. For production-grade systems where performance is critical, exploring advanced concurrency techniques can provide significant benefits, but this comes at the cost of increased complexity.
+-For Simple Applications: If your application does not require extremely high concurrency and performance, the simpler implementation using mutexes and condition variables might be sufficient.
+-For High-Performance Needs: If you need to maximize performance and handle high concurrency, investing in lock-free queues and advanced techniques might be worth the complexity.
+-In summary, the simpler implementation is often a good starting point, especially for less demanding applications or when developing a proof of concept. For production-grade systems where performance is critical, exploring advanced concurrency techniques can provide significant benefits, but this comes at the cost of increased complexity.
 
 
 
