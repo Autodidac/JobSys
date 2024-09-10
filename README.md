@@ -1,7 +1,7 @@
 <img align="left" src="image/3.jpg" width="100px"/>
 
 
-# SafeJobSystem - Cross-platform C++20 Job System Library
+# SafeJobSystem - Cross-platform C++20 Multi-Threading Library
 
 
 <img align="left" src="image/gpt.jpg" width="40px"/>GPT-4
