@@ -8,7 +8,7 @@
 
 
 
-SafeJobSystem is a cross-platform library designed for creating and managing Multi-Threaded Job Systems across multiple platforms. It abstracts platform-specific Job System management code into a unified interface, allowing you to create and manipulate Job-Systems in a platform-agnostic way. 
+SafeJobSystem is a cross-platform library designed for creating and managing Multi-Threaded Job Systems, and on multiple platforms. It abstracts platform-specific Job System management code into a unified interface, allowing you to create and manipulate Job-Systems in a platform-agnostic way. 
 
 
 
