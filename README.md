@@ -78,6 +78,27 @@ Choosing the Right Approach
 - **No-op** (Headless mode)
 ```
 
+## Additional Feature Considerations
+If the std queue is ultimately slower due to external integration or other factors, using your own implementations of lock-free and wait-free queues can indeed be a better choice, especially if performance is a critical concern for your application. Here’s a summary of why using your own implementations might be advantageous:
+
+#### Advantages of Using Your Own Queues
+##### Performance Optimization:
+
+##### Tailored Solutions: Your lock-free and wait-free queue implementations can be optimized specifically for your use case, potentially leading to better performance compared to the standard library queue.
+Reduced Overhead: Custom implementations can avoid the overhead associated with standard library integrations or synchronization mechanisms, which might be present in std::queue.
+Fine-Grained Control:
+
+##### Customization: You have full control over the implementation details, allowing you to optimize for your specific workload, threading model, or system constraints.
+Features: You can implement additional features or optimizations that are not available in standard library implementations.
+Consistency:
+
+##### Unified Approach: Using your own implementations ensures consistency across your project, which can simplify debugging and maintenance.
+Predictable Performance: Custom implementations can provide more predictable performance characteristics compared to the standard library, which might have varying performance depending on its underlying implementation.
+Flexibility:
+
+##### Adaptation: You can adapt and evolve your queue implementations as needed without being constrained by the limitations or design choices of the standard library.
+
+
 
 ## Installation
 
